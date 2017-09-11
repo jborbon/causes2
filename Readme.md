@@ -12,3 +12,5 @@
 * Contact
 * css/Default.css
 * img/
+
+added branchs to gitfiles 
