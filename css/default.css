@@ -1,4 +1,128 @@
-
+#contactinfo_heading{
+	text-align: center;
+	border-bottom-style: solid;
+}
+#contactinfo ul{
+	list-style: none;
+}
+.NY_Location, .FL_Location, .TX_Location{
+	text-align: center;
+}
+#our_supporters{
+	text-align: center;
+}
+#supporters{
+	text-align: center;
+}
+#supporters div{
+	border-radius: 10%;
+}
+#redcross{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/redcross.jpg);
+	display: inline-block;
+	margin: 10px
+}
+#salvation{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/salvation.png);
+	display: inline-block;
+	margin: 10px
+}
+#action{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/action.jpg);
+	display: inline-block;
+	margin: 10px
+}
+#doctors{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/doctors.jpg);
+	display: inline-block;
+	margin: 10px
+}
+#food{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/food4hungry.jpg);
+	display: inline-block;
+	margin: 10px
+}
+#international{
+	border-style: solid;
+	border-color: black;
+	width:200px;
+	height: 200px;
+	background-size:cover;
+	position: relative;
+	background-position: center;
+	background-image: url(../img/international.jpg);
+	display: inline-block;
+	margin: 10px
+}
+.redcross, .salvation, .action, .doctors, .food, .international{
+	opacity: 0;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	transition-property: all;
+	transition-duration: 1s;
+	border-radius: 0 0 15px 15px; 
+}
+#redcross:hover .redcross{
+	opacity: .70;
+}
+#salvation:hover .salvation{
+	opacity: .70;
+}
+#action:hover .action{
+	opacity: .70;
+}
+#doctors:hover .doctors{
+	opacity: .70;
+}
+#food:hover .food{
+	opacity: .70;
+}
+#international:hover .international{
+	opacity: .70;
+}
 
 .banner-info{
 	border-style: solid;
