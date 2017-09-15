@@ -125,15 +125,38 @@
 #international:hover .international{
 	opacity: .70;
 }
-
-
-
-
-
-
-
-
-
+#message{
+	text-align: center;
+}
+#questionForm{
+	margin: auto;
+	width: 400px;
+}
+#donateP{
+	text-align: center;
+	width: 600px;
+	margin: auto;
+}
+#bottomPquestions{
+	text-align: center;
+	width: 700px;
+	margin: auto;
+}
+#bottomDonateMessage{
+	text-align: center;
+	width: 400px;
+}
+#donationsForm{
+	width: 500px;
+	margin-right: 0px;
+}
+#donationsForm table{
+	width:500px;
+	line-height: 30px;
+}
+#donateHands{
+	width: 500px;
+}
 
 
 /*End of Danny's CSS Work*/
