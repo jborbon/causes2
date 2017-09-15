@@ -13,3 +13,5 @@
 * Contact- contact info and supporters
 * css/Default.css
 * img/
+
+added branchs to gitfiles 
