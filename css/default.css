@@ -27,7 +27,7 @@
 	background-position: center;
 	background-image: url(../img/redcross.jpg);
 	display: inline-block;
-	margin: 10px
+	margin: 10px;
 }
 #salvation{
 	border-style: solid;
@@ -39,7 +39,7 @@
 	background-position: center;
 	background-image: url(../img/salvation.png);
 	display: inline-block;
-	margin: 10px
+	margin: 10px;
 }
 #action{
 	border-style: solid;
@@ -51,7 +51,7 @@
 	background-position: center;
 	background-image: url(../img/action.jpg);
 	display: inline-block;
-	margin: 10px
+	margin: 10px;
 }
 #doctors{
 	border-style: solid;
@@ -63,7 +63,7 @@
 	background-position: center;
 	background-image: url(../img/doctors.jpg);
 	display: inline-block;
-	margin: 10px
+	margin: 10px;
 }
 #food{
 	border-style: solid;
@@ -123,6 +123,12 @@
 #international:hover .international{
 	opacity: .70;
 }
+
+.donatebar{
+	text-align: center;
+
+}
+
 
 .banner-info{
 	border-style: solid;
