@@ -4,14 +4,13 @@
 	<title>Donate</title>
 	<link rel="stylesheet" type="text/css" href="css/default.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale =1" />
+	<meta charset="utf-8">
 </head>
 <body>
 	<div class="banner">
 		<div class="banner-info">
 
-		<p>
-			BANNER
-		</p>
+		
 
 	</div>	
 	<div class="top">
@@ -27,25 +26,63 @@
 			</nav>
 	</header>
 	</div>
-	<h1>Donations</h1>
-	<div>
-		<form id="donationForm">
-			<label for="first_name">First Name:</label>
-			<input type="text" name="first_name" id="first_name" />
-			<label for="last_name">Last Name:</label>
-			<input type="text" name="last_name" id="last_name" />
-			<label for="address">Address:</label>
-			<input type="text" name="address" id="address" />
-			<label for="phone">Phone:</label>
-			<input type="text" name="phone" id="phone" />
-			<label for="email">Email:</label>
-			<input type="text" name="email" id="email" />
-			<label for="donation">Donation Amount:</label>
-			<input type="text" name="donation" id="donation" />
-			<label for="formOfPayment">Last Name:</label>
-			<input type="text" name="formOfPayment" id="formOfPayment" />
-			<input type="sumbit" value="Submit">
+	<div id="donateP">
+	<p>Our history is only part of our story. With your help, we can put an end to extreme disasters for the world’s most vulnerable people, together.</p>
+	<p>People hunger for opportunity, starve for resources, and have been stripped of value. These injustices keep us up at night.</p>
+	</div>
+	<h1 id="message">Donate to the Open Arms Foundation to assist.</h1>
+	<div id="donationsForm">
+		<form>
+			<table id="donationsTable">
+				<tr>
+					<td><label for="first_name">First Name:</label></td>
+					<td><input type="text" name="first_name" id="first_name" /></td>
+				</tr>
+				<tr>
+					<td><label for="last_name">Last Name:</label></td>
+					<td><input type="text" name="last_name" id="last_name" /></td>
+				</tr>
+				<tr>
+					<td><label for="address">Address:</label></td>
+					<td><input type="text" name="address" id="address" /></td>
+				</tr>
+				<tr>
+					<td><label for="phone">Phone:</label></td>
+					<td><input type="text" name="phone" id="phone" /></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email:</label></td>
+					<td><input type="text" name="email" id="email" /></td>
+				</tr>
+				<tr>
+					<td><label for="donation">Donation Amount:</label></td>
+					<td><input type="text" name="donation" id="donation" /></td>
+				</tr>
+				<tr>
+					<td><label for="formOfPayment">Form of Payment:</label></td>
+					<td><select name="card">
+						<option value="visa">Visa</option>
+						<option value="mastercard">MasterCard</option>
+						<option value="american">American Express</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><label for="cardInfo">Card Number:</label></td>
+					<td><input type="text" name="cardInfo" id="cardInfo"></td>
+				</tr>
+				<tr>
+					<td><label for="date">Expiration Date:</label></td>
+					<td><input type="text" name="date" id="date"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit"></td>
+				</tr>
+			</table>
 		</form>
+	</div>
+	<img src="img/donateHands.jpg" id="donateHands">
+	<div id="bottomDonateMessage">
+		<p>Your support helps connect the world's most vulnerable people with opportunities to lift themselves out of unimaginable hardships.</p>
 	</div>
 
 	<h2 id="our_supporters">Our Supporters</h2>
@@ -69,5 +106,6 @@
 			<span class="international">International Rescue Committee</span>
 		</div>
 		<script src="main.js"></script>
+
 </body>
 </html>
